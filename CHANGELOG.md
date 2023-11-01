@@ -175,7 +175,7 @@
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 --------------------------------------------------------------------------------
-# Unreleased
+# 0.69.0 (2023-11-01)
 
 ## Added
 - Added the `ParseCallbacks::header_file` callback which runs on every filename passed to `Builder::header`.

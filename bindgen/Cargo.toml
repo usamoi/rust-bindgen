@@ -65,3 +65,9 @@ features = ["experimental"]
 
 [package.metadata.release]
 release = true
+
+# Add version and date to changelog file
+[[package.metadata.release.pre-release-replacements]]
+file = "../CHANGELOG.md"
+search = "# Unreleased"
+replace = "# {{version}} ({{date}})"
